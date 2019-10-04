@@ -1,0 +1,28 @@
+{
+  "name": "generate-username",
+  "version": "1.0.0",
+  "description": "Generate fake usernames for bots in games.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/endel/generate-bot-name.git"
+  },
+  "keywords": [
+    "bot",
+    "name",
+    "generator"
+  ],
+  "author": "Endel Dreyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/endel/generate-bot-name/issues"
+  },
+  "homepage": "https://github.com/endel/generate-bot-name#readme",
+  "devDependencies": {
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  }
+}
