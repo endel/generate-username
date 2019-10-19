@@ -1,6 +1,6 @@
 {
   "name": "generate-username",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate fake usernames for bots in games.",
   "main": "lib/index.js",
   "scripts": {
