@@ -1,9 +1,10 @@
 {
   "name": "generate-username",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate fake usernames for bots in games.",
   "main": "lib/index.js",
   "scripts": {
+    "prepublish": "tsc",
     "test": "mocha --require ts-node/register test/**Test.ts --exit"
   },
   "repository": {
