@@ -13,6 +13,10 @@ import generateUsername from "generate-username";
 generateUsername() // => "UnknownPlayer"
 ```
 
+## TODO
+
+Support multiple languages. By default it uses only english usernames.
+
 ## License
 
 MIT

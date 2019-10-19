@@ -1,10 +1,10 @@
 {
   "name": "generate-username",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate fake usernames for bots in games.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require ts-node/register test/**Test.ts --exit"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/endel/generate-bot-name#readme",
   "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "mocha": "^6.2.2",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.3"
   }

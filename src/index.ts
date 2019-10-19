@@ -1,4 +1,4 @@
-const NAMES = require('../botnamelist.json');
+const NAMES = require('../us.json');
 
 export default function generate() {
   const index = Math.floor(Math.random() * NAMES.length);
